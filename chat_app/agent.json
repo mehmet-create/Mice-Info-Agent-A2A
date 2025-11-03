@@ -1,0 +1,28 @@
+{
+  "name": "Mice Info Agent",
+  "description": "An expert agent providing accurate, grounded information about the care, biology, and behavior of mice and rats.",
+  "avatar_url": "https://placehold.co/128x128/9d8189/ffffff?text=Mouse",
+  "tags": ["rodent-expert", "animal-care", "gemini-powered"],
+  "version": "1.0",
+  "contact_email": "support@example.com",
+  "links": [
+    {
+      "name": "Privacy Policy",
+      "url": "https://example.com/privacy"
+    },
+    {
+      "name": "Terms of Service",
+      "url": "https://example.com/terms"
+    }
+  ],
+  "webhook": {
+    "endpoint": "/api/a2a/agent",
+    "method": "POST",
+    "protocol": "a2a"
+  },
+  "capabilities": {
+    "text": true,
+    "image": false,
+    "video": false
+  }
+}
