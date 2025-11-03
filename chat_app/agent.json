@@ -5,6 +5,12 @@
   "tags": ["rodent-expert", "animal-care", "gemini-powered"],
   "version": "1.0",
   "contact_email": "support@example.com",
+  
+  "type": "a2a/mastra-a2a-node",
+  "typeVersion": 1,
+
+  "url": "https://mice-info-agent-a2a.onrender.com/a2a/agent/miceAgent", 
+
   "links": [
     {
       "name": "Privacy Policy",
@@ -15,11 +21,7 @@
       "url": "https://example.com/terms"
     }
   ],
-  "webhook": {
-    "endpoint": "/api/a2a/agent",
-    "method": "POST",
-    "protocol": "a2a"
-  },
+  
   "capabilities": {
     "text": true,
     "image": false,
